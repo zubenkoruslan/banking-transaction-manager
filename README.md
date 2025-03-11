@@ -1,12 +1,28 @@
-# React + Vite
+# Banking Transaction Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React-based single-page application for managing banking transactions. Users can add, edit, and delete transactions (deposits and withdrawals), view their balance, and filter transaction history. Built with a focus on simplicity, performance, and a sleek UI.
 
-Currently, two official plugins are available:
+## Features
+- **Transaction Management**: Add, edit, and delete deposits and withdrawals with real-time updates.
+- **Balance Summary**: Displays the current balance based on transaction history.
+- **Filtering**: Filter transactions by type (all, deposits, withdrawals).
+- **Responsive Design**: Styled with Tailwind CSS for a polished, mobile-friendly UI.
+- **State Management**: Uses Zustand for lightweight, efficient state handling.
+- **Testing**: Unit tests with Vitest and React Testing Library.
+- **Deployment**: Hosted on AWS Amplify with CI/CD integration.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- **Frontend**: React 18 (Vite)
+- **State Management**: Zustand
+- **Styling**: Tailwind CSS (v3)
+- **Testing**: Vitest, React Testing Library
+- **Build Tool**: Vite
+- **Deployment**: AWS Amplify
 
-## Expanding the ESLint configuration
+## Prerequisites
+- **Node.js**: v18.x or higher
+- **npm**: v9.x or higher
+- **Git**: For cloning the repository
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Live Demo
+- https://main.d5q0frf8656pf.amplifyapp.com/
