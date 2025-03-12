@@ -24,5 +24,5 @@ A modern React-based single-page application for managing banking transactions. 
 - **npm**: v9.x or higher
 - **Git**: For cloning the repository
 
-## Live Demo
-- https://main.d5q0frf8656pf.amplifyapp.com/
+## UI
+![Screenshot] (/app-screenshot.png)
