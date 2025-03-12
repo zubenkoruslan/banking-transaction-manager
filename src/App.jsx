@@ -1,7 +1,7 @@
 import React from 'react';
 import TransactionForm from './components/TransactionForm';
 import TransactionList from './components/TransactionList';
-import Summary from './components/Summary';
+import Summary from './components/BudgetSummary';
 import { useTransactionStore } from './store/transactionStore';
 
 export default function App() {
