@@ -25,4 +25,4 @@ A modern React-based single-page application for managing banking transactions. 
 - **Git**: For cloning the repository
 
 ## UI
-![Screenshot] (/app-screenshot.png)
+![Screenshot](/app-screenshot.png)
